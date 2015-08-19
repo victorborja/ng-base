@@ -99,6 +99,24 @@ class AppComponent {
    }
    ```
 
+   By default, components have isolated scopes.
+   Their controller is aliased as the camelCased component name. `nAppToolbar` for the previous example. You can provide the `scope` option to `@component` as you would for an element directive.
+
+
+- `@route`
+
+   Makes the component to handle certain [route](https://github.com/angular-ui/ui-router).
+
+   `@route(STATE_NAME, PATH, [OPTIONS])`
+
+   ```javascript
+   @module('n')
+   @component('n-welcome')
+   @route('index', '/')
+   class WelcomeController {
+
+   }
+   ```
 
 ## resources
 
