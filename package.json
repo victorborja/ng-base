@@ -1,7 +1,7 @@
 {
   "name": "jobs",
   "version": "0.0.0",
-  "description": "Bussi web app",
+  "description": "App",
   "repository": "private",
   "license": "MIT",
   "scripts": {
@@ -35,9 +35,8 @@
   "dependencies": {
     "angular": "^1.4.3",
     "angular-ui-router": "^0.2.15",
-    "bluebird": "^2.9.34",
     "dotenv": "^1.2.0",
-    "lodash": "^3.10.0"
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.3",

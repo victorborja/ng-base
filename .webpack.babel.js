@@ -61,7 +61,7 @@ const common = {
         .DirectoryDescriptionFilePlugin('bower.json', ['main'])
     ),
     new HtmlWebpackPlugin({
-      title: process.env.APP_TITLE || 'Bussi',
+      title: process.env.APP_TITLE || 'App',
       fbAppId: process.env.FB_APP_ID,
       minify: isProduction ? {
         removeComments: true,
